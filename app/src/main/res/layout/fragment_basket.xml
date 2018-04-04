@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.t_rex.moonbookshop.fragments.BasketFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rootRecyclerView"
+        android:layout_above="@id/basketInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/basketInfo"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/totalPrice"
+            android:text="Total: 250 zł"
+            android:textColor="@color/colorTextMain"
+            android:textSize="@dimen/bigSizeText"
+            android:gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buyNowButton"
+            android:padding="16dp"
+            android:text="@string/buy_now"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

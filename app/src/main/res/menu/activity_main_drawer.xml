@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_action_document"
+            android:title="@string/home"/>
+        <item
+            android:id="@+id/categories"
+            android:icon="@drawable/ic_apps"
+            android:title="@string/categories"/>
+        <item
+            android:id="@+id/bestsellers"
+            android:icon="@drawable/ic_show_chart"
+            android:title="@string/bestsellers"/>
+        <item
+            android:id="@+id/basket"
+            android:icon="@drawable/ic_add_shopping_cart"
+            android:title="@string/basket"/>
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/ic_send"
+            android:title="@string/about_us"/>
+        <item
+            android:id="@+id/loadData"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="load data"/>
+    </group>
+
+</menu>
